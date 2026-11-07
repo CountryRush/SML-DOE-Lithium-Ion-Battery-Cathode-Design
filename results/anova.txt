@@ -1,0 +1,20 @@
+ANOVA: specific_capacity_mAh_g ~ block + A + B + C + A:B + A:C + B:C
+Note: ABC is confounded with block (block contrast = ABC contrast).
+
+Analysis of Variance Table
+
+Response: specific_capacity_mAh_g
+          Df Sum Sq Mean Sq  F value    Pr(>F)    
+block      1   1024    1024   671.21 1.714e-14 ***
+A          1  82721   82721 54211.54 < 2.2e-16 ***
+B          1   4674    4674  3062.79 < 2.2e-16 ***
+C          1  96830   96830 63457.78 < 2.2e-16 ***
+A:B        1  20631   20631 13520.73 < 2.2e-16 ***
+A:C        1  88716   88716 58139.82 < 2.2e-16 ***
+B:C        1   1504    1504   985.81 8.373e-16 ***
+Residuals 16     24       2                       
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual df: 16 
+Pure error SD: 1.2353 mAh/g

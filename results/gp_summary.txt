@@ -1,0 +1,27 @@
+GP (Matern 5/2 + linear trend), n = 50 
+LOO-RMSE: 11.671 mAh/g
+LOO-R2: 0.9828 
+
+
+Call:
+km(formula = ~A + B + C, design = X, response = y, covtype = "matern5_2", 
+    nugget.estim = TRUE, control = list(trace = FALSE))
+
+Trend  coeff.:
+               Estimate
+ (Intercept)   250.9898
+           A   -73.9546
+           B    60.3233
+           C  -107.6168
+
+Covar. type  : matern5_2 
+Covar. coeff.:
+               Estimate
+    theta(A)     0.3600
+    theta(B)     0.9091
+    theta(C)     0.4959
+
+Variance estimate: 2693.456
+
+Nugget effect estimate: 2.693456e-05
+

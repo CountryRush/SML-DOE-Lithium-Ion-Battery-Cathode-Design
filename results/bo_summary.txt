@@ -1,0 +1,11 @@
+BO comparison (3 seeds), black box = GP surrogate of 50-run data
+Target: 300 mAh/g
+
+  method final_best evals_to_target
+1 Random    355.636              10
+2  BO-EI    386.707               6
+3 BO-UCB    386.707               6
+
+Random final best: 355.64 
+BO-EI final best : 386.71 
+BO-UCB final best: 386.71 

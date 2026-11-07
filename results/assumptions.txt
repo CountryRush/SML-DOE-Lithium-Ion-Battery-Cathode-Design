@@ -1,0 +1,9 @@
+Shapiro-Wilk normality test on residuals
+
+	Shapiro-Wilk normality test
+
+data:  resid(m_anova)
+W = 0.91307, p-value = 0.04113
+
+
+Residual SD: 1.2353 

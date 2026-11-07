@@ -1,0 +1,4 @@
+method,final_best,evals_to_300
+Random,338.999,9
+BO-EI,375.777,3
+BO-UCB,375.909,3

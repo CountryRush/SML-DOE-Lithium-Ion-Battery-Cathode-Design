@@ -1,0 +1,4 @@
+"method","final_best","evals_to_target"
+"Random",355.636,10
+"BO-EI",386.707,6
+"BO-UCB",386.707,6

@@ -1,0 +1,7 @@
+BO on actual PyBaMM simulator, 3 seeds, 28 evals each
+Total wall time: 120.7 s
+
+method  final_best  evals_to_300
+Random     338.999             9
+ BO-EI     375.777             3
+BO-UCB     375.909             3
